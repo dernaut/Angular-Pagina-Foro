@@ -1,0 +1,38 @@
+.navbar{
+    border-bottom: 1px solid #0f4204;
+    background-color: #092A06;
+    display: flex;
+}
+
+.div1{
+    border-bottom: 1px solid #0f4204;
+    background-color: #092A06;
+    display: flex;
+    width: 100%;
+    height: 54.59px;
+    padding-top: 3px;
+    opacity: .96;
+}
+.div2{
+    border-bottom: 1px solid #0f4204;
+    background-color: #092A06;
+    width: 100%;
+    opacity: .96;
+}
+
+.list-group-item{
+    border-bottom: 0.4px solid #0f4204;
+    border-right: 0.4px solid #040f02;
+    border-color: #040f02;
+    background-color: #092A06;
+    display: flex;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    justify-content: center;
+    height: 54px;
+    margin-top: -1px;
+}
+
+
+

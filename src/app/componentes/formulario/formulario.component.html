@@ -1,0 +1,76 @@
+<div class="div1">
+  <b class="texto1">FZ Roleplay</b>
+</div>
+
+<div class="div2">
+  <b class="texto2">¡Advertencia!</b>
+</div>
+
+<div class="div3">
+  <div class="div-texto">
+    <p class="texto3" align="center">
+      El tema o foro que estás buscando parece que no existe, o fuera de tus
+      límites. Por favor ingresa abajo o haz clic registrar una cuenta para
+      registrar una cuenta en FZ Roleplay
+    </p>
+  </div>
+</div>
+
+<div class="div4">
+  <b class="texto4">Ingresar</b>
+</div>
+
+<div class="div5">
+  <form [formGroup]="datos">
+    <div class="div6">
+      <label class="labelu">Usuario: </label>
+      <input
+        class="inputs"
+        type="text"
+        id="usuario"
+        name="name"
+        formControlName="usuario"
+      />
+    </div>
+    <div class="div7">
+      <label class="labelc">Contraseña: </label>
+      <input
+        class="inputs"
+        type="password"
+        id="contra"
+        name="name"
+        formControlName="contra"
+      />
+    </div>
+    <div class="div7">
+      <label class="labeld">Duración de la sesión en minutos: </label>
+      <input
+        class="input2"
+        type="text"
+        id="uname11"
+        name="name2"
+        placeholder="60"
+        value="60"
+      />
+    </div>
+    <div class="div7">
+      <label class="labele">Recordar siempre Usuario/Contraseña: </label>
+      <input class="input2" type="checkbox" id="uname1" name="name2" />
+    </div>
+    <div class="div8">
+      <button class="boton" (click)="enviarDatos()">INGRESAR</button>
+    </div>
+    <div class="div9">
+      <b class="texto5">¿Olvidaste tu contraseña?</b>
+    </div>
+  </form>
+</div>
+
+<div class="div10">
+  <div class="div-texto">
+    <p class="texto6" align="center">
+      Página creada en 0.021 segundos con 11 consultas. v2.1
+    </p>
+  </div>
+</div>
+
